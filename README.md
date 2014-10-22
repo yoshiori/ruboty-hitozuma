@@ -1,0 +1,21 @@
+# Ruboty::Hitozuma
+
+ruboty handler. Whimsical Magi system.
+
+https://github.com/hajimehoshi/hitozuma
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'ruboty-hitozuma'
+```
+
+## Contributing
+
+1. Fork it ( https://github.com/yoshiori/ruboty-hitozuma/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
