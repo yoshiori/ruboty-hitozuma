@@ -8,7 +8,7 @@ module Ruboty
       def magi(message)
         if rand(100) == 0
           answer = (rand(10) != 0) ? "はい" : "いいえ"
-          from = message.from
+          from = message.from_name
           return if from == message.robot.name
           if from
             message.reply("@#{message.from}: #{answer}")
