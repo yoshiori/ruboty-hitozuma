@@ -11,7 +11,7 @@ module Ruboty
           from = message.from_name
           return if from == message.robot.name
           if from
-            message.reply("@#{message.from}: #{answer}")
+            message.reply("@#{from}: #{answer}")
           else
             message.reply("#{answer}")
           end
